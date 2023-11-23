@@ -461,7 +461,7 @@ window.addEventListener("DOMContentLoaded", () => {
       if (slides.length < 10) {
         current.textContent = `0${slideIndex}`;
       } else {
-        current.textContent = slideIndex; 
+        current.textContent = slideIndex;
       }
 
       dots.forEach((dot) => (dot.style.opacity = ".5"));
